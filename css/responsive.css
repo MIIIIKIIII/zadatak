@@ -1,0 +1,282 @@
+/*
+====================================================================================================
+Theme Name:   Kenaz Task - responsive
+Description:  Task
+Version:    1.0
+Author:     Mijo Blažević
+
+====================================================================================================
+
+
+
+
+/* ====================================================================================================================
+ * Responsive menu
+ * ====================================================================================================================*/
+#main-menu{display: none;}
+
+.nav-wrapper {
+    background-color: #4d4382;
+    height: auto;
+ }
+ 
+.main-menu-main {
+  background-color: #4d4382;
+  height: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  max-width: 100%;
+ }
+
+.main-menu-main ul {
+    background-color: #4d4382;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+ }
+ 
+.main-menu-main li {float: none;}
+
+.main-menu-main li a {
+    color: white;
+    display: inline-block;
+    font-family: 'Bitter';
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ 
+.main_navigation-wrapper {background-color: #4d4382;}
+
+.icon {
+  color: #f0f0f0;
+  display: inline-block;
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+ }
+
+.menu-1{
+  background-color: transparent;
+}
+/* ====================================================================================================================
+ * Responsive menu end
+ * ====================================================================================================================*/
+
+
+/* ====================================================================================================================
+ * News slider 
+ * ====================================================================================================================*/
+
+
+}
+.news-slider {margin-bottom: 5px;}
+#postinfo1,#postinfo2,#postinfo3,#postinfo4,#postinfo5 {
+display: none;
+}
+
+#comment1,#comment2,#comment3,#comment4,#comment5 {
+display: none;
+}
+
+#round1,#round2,#round3,#round4,#round5 {
+display: none;
+}
+ 
+/* ====================================================================================================================
+ * Banners
+ * ====================================================================================================================*/
+.top-banner {
+  margin-bottom: 7px;
+  margin-top: 10px;
+}
+
+
+.bottom-banner {
+  margin-bottom: 3px;
+  margin-top: 3px;
+ }
+.content-banner {display: none;}
+    @media screen and (max-width: 620px) {
+    .content-banner {
+      display:block;
+      padding-bottom: 5px;}
+}
+
+#round {display: none;}
+
+.top-nav-menu {display: none;}
+
+.category-content {max-width: 100%;}
+
+.category-title {
+    color: #363f48;
+    display: inline-block;
+    line-height: 0.5;
+    float: left;
+    font-family: "Bitter";
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 15px;
+    text-decoration: none;
+}
+ 
+.content-news {
+    height: auto;
+    width: 98%;
+    margin-bottom: 5px;
+ }
+ .news-post {
+    display: block;
+    float: left;
+    width: 90%;
+    height: auto;
+    margin-left: 15px;
+}
+
+.content-sport {
+    height: auto;
+    width: 98%;
+    margin-bottom: 5px;
+}
+
+.sport-post {
+    display: block;
+    float: left;
+    width: 90%;
+    height: auto;
+    margin-left: 15px;
+}
+.main-content-business {
+    height: auto;
+    width: 98%;
+    margin-bottom: 5px;
+}
+.business-post {
+    display: inline-block;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+ 
+ .main-content-carousel {
+    height: auto;
+    width: 98%;
+    margin-bottom: 5px;
+ }
+.main-content-carousel-left {display: none;}
+
+.main-content-carousel-right {display: none;}
+
+.side-bar {display: none;}
+ 
+.see-all {display: none;}
+
+ #back-to-top{display: none;}
+/* ====================================================================================================================
+ * Footer
+ * ====================================================================================================================*/
+.footer-nav-1{
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-nav-2 {
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-nav-3 {
+  padding-top: 10px;
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px:;
+}
+
+.footer-end {
+    border-top: 1px solid #555555;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-title-post-tweeter {
+    font-family: "Bitter";
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 95px;
+}
+
+.footer-featured {
+    padding-top: 25px;
+    float: none;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #323232;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer-title-post-2 {
+    padding: 0px 0px 5px 10px;
+    background: #333333;
+    margin-right: 20px;
+}
+
+.footer-title-post {
+    padding: 0px 0px 5px 10px;
+    background: #333333;
+}
+
+.footer-title-post-random {
+    padding: 0px 0px 5px 10px;
+    background: #333333;
+}
+
+.footer-title-post-tweeter {
+    font-family: "Bitter";
+    padding: 0px 0px 5px 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 130px;
+    background: #333333;
+    margin-right: 20px;
+}
+  .footer-end-right {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-left:10px;
+    font-size: 12px;
+    font-family: 'Varela Round';
+    color: #999999;
+    float: left;
+}
+
+.footer-end-left {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-left:10px;
+  font-size: 12px;
+  font-family: 'Varela Round';
+  color: #999999;
+  float: left;
+}
+
+.zoom {display: none;}
+.cycle-pager{display: none;}
+
